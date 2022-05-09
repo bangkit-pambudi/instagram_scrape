@@ -54,7 +54,7 @@ for userAkun in list_user:
                         item['shortcode'],
                         userAkun,
                         'https://www.instagram.com/reel/' + item['shortcode'] + '/',
-                        0,
+                        item['video_duration'],
                         item['edge_media_to_caption']['edges'][0]['node']['text'],
                         time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(item['taken_at_timestamp'])),
                         item['edge_media_to_comment']['count'],
