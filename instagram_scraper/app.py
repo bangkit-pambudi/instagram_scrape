@@ -618,7 +618,7 @@ class InstagramScraper(object):
                 else :
                     node['video_play_count'] = 0
 
-                if 'duration_in_ms' in details:
+                if 'video_duration' in details:
                     node['video_duration'] = details['video_duration']
                 else :
                     node['video_duration'] = 0
