@@ -9,7 +9,7 @@ import datetime
 
 header = ['shortcode','account','url','duration','title','published_datetime','comment','like','Thumbnail','video_play_count','video_view_count']
 
-args = {"login_user": "etapaantuh@gmail.com", "login_pass": "marjan888"}
+args = {"login_user": "", "login_pass": ""}
 
 #tahun-bulan-tanggal
 waktu_ambil = datetime.datetime(2022, 5, 1).timestamp()  
